@@ -1,0 +1,105 @@
+.user-profile{
+    background-image: url('/assets/pro.png');
+     background-size: cover; 
+     background-position: center;
+     height: 100vh;
+     
+   }
+   
+   .container {
+       max-width: 600px;
+       margin: 0 auto;
+       padding: 20px;
+       
+       .card {
+         background-color: #ffffff22;
+         border-radius: 10px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         padding: 30px;
+         margin-top: 3%;
+         
+         h1 {
+           margin-bottom: 30px;
+           text-align: center;
+         }
+         
+         .profile-picture-container {
+           text-align: center;
+           
+           label {
+             cursor: pointer;
+             color: #007bff;
+             font-weight: bold;
+             margin-bottom: 10px;
+             
+             i {
+               margin-right: 5px;
+             }
+           }
+           
+           input[type="file"] {
+             display: none;
+           }
+           
+           img {
+             max-width: 200px;
+             margin-top: 10px;
+           }
+         }
+         
+         .form-group {
+           margin-bottom: 20px;
+           
+           label {
+             font-weight: bold;
+           }
+           
+           input[type="text"],
+           input[type="email"],
+           input[type="password"] {
+             width: 100%;
+             padding: 10px;
+             border: 1px solid #ccc;
+             border-radius: 5px;
+           }
+           
+           .text-danger {
+             font-size: 14px;
+             color: #dc3545;
+           }
+         }
+         
+         .btn {
+           width: 200px;
+           margin-right: 5px;
+         }
+       }
+      img{
+       width:100px;
+       height:100px;
+      }
+   
+     }
+     .user-profile {
+       .profile-picture-container {
+         margin-bottom: 20px;
+         text-align: center; 
+         img {
+           max-width: 200px;
+           height: auto;
+           display: inline-block; 
+           margin-top: 10px;
+         }
+         label {
+           display: block;
+           margin-top: 10px; 
+         }
+       }
+       
+     }
+     @media screen and (max-width: 768px) {
+           .container{
+               margin-top: 80px;
+           }
+     }
+     
